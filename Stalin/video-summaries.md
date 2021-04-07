@@ -320,3 +320,207 @@ A short video by [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedK
 9. Concatenate strings with .join()
 10. Merge dictionaries with {\*\*d1, \*\*d2} (Python 3.5+)
 11. Simplify if-statements with if x in list
+
+### Timeline
+
+* [00:20](https://youtu.be/8OKTAedgFYg?t=20) Iterate with enumerate instead or range(len(x))
+* [01:03](https://youtu.be/8OKTAedgFYg?t=63) Use list comprehension instead of raw for loops
+* [01:47](https://youtu.be/8OKTAedgFYg?t=107) Sort complex iterables with sorted()
+* [02:58](https://youtu.be/8OKTAedgFYg?t=178) Store unique values with Sets
+* [03:40](https://youtu.be/8OKTAedgFYg?t=220) Save memory with Generators
+* [05:00](https://youtu.be/8OKTAedgFYg?t=301) Define default values in Dictionaries with .get() and .setdefault()
+* [06:05](https://youtu.be/8OKTAedgFYg?t=365) Count hashable objects with collections.Counter
+* [07:38](https://youtu.be/8OKTAedgFYg?t=458) Format strings with f-Strings (Python 3.6+)
+* [08:21](https://youtu.be/8OKTAedgFYg?t=501) Concatenate strings with .join()
+* [09:26](https://youtu.be/8OKTAedgFYg?t=566) Merge dictionaries with {\*\*d1, \*\*d2} (Python 3.5+)
+* [09:58](https://youtu.be/8OKTAedgFYg?t=598) Simplify if-statements with if x in list
+
+## [Trey Hunner Readability Counts PyCon 2017](https://www.youtube.com/watch?v=knMg6G9_XCg)
+
+A great talk by [Trey Hunner](https://twitter.com/treyhunner) during the PyCon 2017 conference. The talks explains really well different coding styles and techniques to make our program more readable.
+
+### Key take aways
+
+1. Don't try to focus on code line length
+2. Use verbose mode for regular expressions to make it more readable
+3. Wrap our arguments in our function
+4. Follow PEP 8 python style guide
+5. Use PEP 8 as a reference not as a rule book
+6. Use descriptive names not 2 letter variables in python
+7. Don't arbitrary indexes but use tuple unpacking
+8. Use another method that return boolean when your if statement is too long
+9. Read code aloud and see if it feels easy to read
+10. Refactor your code to make it more self documented
+11. Insert empty line breaks to divide your code into code blocks
+12. Instead of having huge chunks in a single function have multiple functions inside a single function each performing each chuck of code to make it more readable
+13. Dunder methods are methods with `__<method>__`
+14. Use list comprehension instead of using `for`
+15. Try to use built in python operators
+16. If your chain of functions are passing and returning the same variable, consider using class
+
+### TImeline
+
+* [00:00](https://www.youtube.com/watch?v=knMg6G9_XCg) Introduction
+* [03:21](https://youtu.be/knMg6G9_XCg?t=201) Structuring Code
+* [05:01](https://youtu.be/knMg6G9_XCg?t=301) Regular Expressions
+* [06:36](https://youtu.be/knMg6G9_XCg?t=396) Function calls
+* [08:42](https://youtu.be/knMg6G9_XCg?t=522) PEP 8
+* [09:59](https://youtu.be/knMg6G9_XCg?t=599) Naming things
+* [16:02](https://youtu.be/knMg6G9_XCg?t=962) So many functions
+* [18:23](https://youtu.be/knMg6G9_XCg?t=1103) Recap
+* [18:53](https://youtu.be/knMg6G9_XCg?t=1133) Programming idioms
+* [19:26](https://youtu.be/knMg6G9_XCg?t=1166) Clean up
+* [21:04](https://youtu.be/knMg6G9_XCg?t=1264) Lists from lists
+* [22:21](https://youtu.be/knMg6G9_XCg?t=1341) Operator overloading
+* [24:10](https://youtu.be/knMg6G9_XCg?t=1450) Abstract base class
+* [24:24](https://youtu.be/knMg6G9_XCg?t=1464) Shared Data
+* [25:02](https://youtu.be/knMg6G9_XCg?t=1502) Recap 2
+
+## [Mariano Anaya: Clean code in Python](https://www.youtube.com/watch?v=n_Y-_7R2KsY)
+
+A talk by [Mariano Anaya](https://twitter.com/rmarianoa)
+
+### Key take aways
+
+1. We spend more time reading code than writing, so focus on readability
+2. Duplicated code is hard to maintain and error prone
+3. Use decorators to modify a function with changed logic
+4. Differentiate business logic and implementation logic
+5. Avoid writing getter and setter methods for classes use `@property`
+6. Use context managers to maintain state of resources
+7. Be pythonic
+8. Use docstrings, PEP 8, unit tests, linters etc
+
+### Timeline
+
+* [00:59](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=59s) Introduction  
+* [04:19](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=259s) Don't Repeat yourself DRY  
+* [05:38](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=338s) Decorators  
+* [08:37](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=517s) Implementation Details  
+* [10:37](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=637s) @property  
+* [12:51](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=771s) Maintaining State using context managers  
+* [14:52](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=892s) Pythonic  
+* [15:26](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=926s) Summary  
+* [19:12](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=1152s) QnA
+
+## [Readability Counts: Best Practices in Python Coding](https://www.youtube.com/watch?v=ubGeHQRjNog)
+
+In this webinar, bootcamp instructor Alex Baransky discussed popular Python coding conventions and how you can incorporate them into your work to increase your code's readability. It is a very detailed webinar with a lot of tips and tricks.
+
+### Key take aways
+
+1. `import this` to take a look at the "Zen of Python"
+2. Try to avoid `l` (lowercase letter el), `O` (uppercase letter oh) or `I` (uppercase letter eye) as a single character and they are pretty hard to distinguish
+3. Avoid using python keywords and built-in function/class names as variable names. Use an `_` if you have to use it
+4. Modules should have short lowercase names
+5. Constants should be created with UPPERCASE
+6. Avoid single letter variable, it should only be used while representing index values.
+7. Use descriptive variable and function names
+8. Use docstring for documentation
+9. In documentation don't describe how a function or class works, but what it does and how to use it
+10. In docstring for params use `param: Description -> <object_type>`
+11. In docstring for function in class doc use `<function_name>: Description`
+12. In docstring functions tell what it does, the arguments it need and what it returns
+13. For recursive functions, comment the base condition (exit condition) and where the function calls itself
+14. Don't do this `func ()`
+15. PEP 8 suggests ***not to have more than 79 characters*** on a single line
+16. On splitting a mathematical statement make sure the ***operator preceeds the operand***
+17. Make sure indentation is aligned
+18. Break huge chunks of code into small separate functions
+19. Write your code as explicitly as possible
+20. Don't do `from <library> import *` as there can be conflicting names
+21. For some packages like `pandas` use the standard alias typically used, here `pd`
+22. Try to make code simple, but while doing so if it looks complicated, you rather have it complex to increase efficiency
+23. For arrays each row should be in each line
+24. Don't try to nest code, make it as flat as possible
+25. Don't make deep packages
+26. Don't try to explain every single thing
+27. Errors should not pass silently, unless explicitly silenced
+28. Raise errors to alert users for params/input validations
+29. Don't make your code ambiguous, as not every programmer can read it
+30. Implementation should be easy to explain
+31. Don't go overboard trying to make code unreasonably robust. Solve immediate issues
+
+### Timeline
+
+* [01:30](https://www.youtube.com/watch?v=ubGeHQRjNog&t=90s) Introduction  
+* [04:25](https://www.youtube.com/watch?v=ubGeHQRjNog&t=265s) Why write Interpretable code?  
+* [09:30](https://www.youtube.com/watch?v=ubGeHQRjNog&t=570s) Naming Conventions  
+* [17:45](https://www.youtube.com/watch?v=ubGeHQRjNog&t=1065s) Names to avoid  
+* [19:55](https://www.youtube.com/watch?v=ubGeHQRjNog&t=1195s) Modules and packages  
+* [20:10](https://www.youtube.com/watch?v=ubGeHQRjNog&t=1210s) Variables and functions  
+* [31:09](https://www.youtube.com/watch?v=ubGeHQRjNog&t=1869s) Classes, Class methods and arguments  
+* [36:30](https://www.youtube.com/watch?v=ubGeHQRjNog&t=2190s) Documentation  
+* [44:10](https://www.youtube.com/watch?v=ubGeHQRjNog&t=2650s) Commenting  
+* [50:00](https://www.youtube.com/watch?v=ubGeHQRjNog&t=3000s) Beautiful code  
+* [51:45](https://www.youtube.com/watch?v=ubGeHQRjNog&t=3105s) Spacing  
+* [57:07](https://www.youtube.com/watch?v=ubGeHQRjNog&t=3427s) Maximum character in a line  
+* [01:01:10](https://www.youtube.com/watch?v=ubGeHQRjNog&t=3670s) using keywords  
+* [01:05:40](https://www.youtube.com/watch?v=ubGeHQRjNog&t=3940s) Helper functions  
+* [01:13:29](https://www.youtube.com/watch?v=ubGeHQRjNog&t=4409s) Writing explicit code  
+* [01:15:12](https://www.youtube.com/watch?v=ubGeHQRjNog&t=4512s) Calling objects from modules or packages  
+* [01:18:26](https://www.youtube.com/watch?v=ubGeHQRjNog&t=4706s) Write simple code  
+* [01:24:33](https://www.youtube.com/watch?v=ubGeHQRjNog&t=5073s) complex is better than complicated  
+* [01:33:31](https://www.youtube.com/watch?v=ubGeHQRjNog&t=5611s) Flat is better than nested  
+* [01:37:27](https://www.youtube.com/watch?v=ubGeHQRjNog&t=5847s) Modules and packages  
+* [01:38:28](https://www.youtube.com/watch?v=ubGeHQRjNog&t=5908s) Sparse is better than Dense  
+* [01:45:08](https://www.youtube.com/watch?v=ubGeHQRjNog&t=6308s) Error should never pass silently  
+* [01:50:50](https://www.youtube.com/watch?v=ubGeHQRjNog&t=6650s) Raising errors  
+* [01:52:20](https://www.youtube.com/watch?v=ubGeHQRjNog&t=6740s) Ambiguity  
+* [01:56:36](https://www.youtube.com/watch?v=ubGeHQRjNog&t=6996s) Implementation should be easy to explain  
+* [01:58:30](https://www.youtube.com/watch?v=ubGeHQRjNog&t=7110s) Now is better than never. Although, never is often better than right now  
+* [02:01:33](https://www.youtube.com/watch?v=ubGeHQRjNog&t=7293s) Conclusion
+
+## [Trey Hunner Hands On Intro to Python for New Programmers PyCon 2017](https://www.youtube.com/watch?v=6zu8lrYn6t8)
+
+Once again from [Trey Hunner](https://twitter.com/treyhunner), a great tutorial for absolute python beginners given at PyCon 2017. Do keep in mind the video is really long
+
+### Key take aways
+
+1. strings
+2. scripts
+3. conditions
+4. lists
+5. `append()` and `pop()`
+6. `for` `while`
+7. files
+
+### Timeline
+
+* [01:01](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=61s) Talk starts  
+* [10:03](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=603s) Python 3.6  
+* [20:00](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=1200s) Strings  
+* [28:40](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=1720s) Variables  
+* [40:30](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=2430s) Scripts  
+* [01:12:26](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=4346s) break  
+* [01:29:00](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=5340s) continue  
+* [01:31:00](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=5460s) conditions  
+* [01:39:00](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=5940s) if else  
+* [01:58:54](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=7134s) lists  
+* [02:47:47](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=10067s) Loops  
+* [02:51:23](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=10283s) Slices  
+* [02:53:00](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=10380s) QnA  
+* [03:04:47](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=11087s) Files
+
+## [Anand Chitipothu - Writing Beautiful Code](https://www.youtube.com/watch?v=QIRyr6qvGrY)
+
+A talk by [Anand Chitipothu](https://twitter.com/anandology) on writing code that is pleasant to read and maintain during the EuroPython 2017 conference.
+
+### Key take aways
+
+1. Choose meaningful names
+2. Avoid generic names, abbreviations, using datatype as a name
+3. Use nouns for variables and classes and verbs for functions
+4. Use plural for a list
+5. Avoid single letter variable, it should only be used while representing index values.
+6. Never use similar names for completely different datatypes
+7. In comments, don't say the obvious. Instead, explain why it was done
+8. The length of the variable is proportional to the scope of the variable
+
+### Timeline
+
+* [02:24](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=144s) Choose meaningful names  
+* [10:28](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=628s) Comments  
+* [12:43](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=763s) Program Organization  
+* [18:42](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=1122s) Summary  
+* [20:20](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=1220s) QnA
