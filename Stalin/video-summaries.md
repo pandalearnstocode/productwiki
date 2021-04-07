@@ -4,7 +4,7 @@
 
 This is talk given by [Michael Kennedy](https://www.youtube.com/channel/UCB2z8yryU2efaHA74MoDN8w) teaching us different, very useful, Pythonic code techniques. He explains well with great examples which is easy to understand. The video is simple and fun to watch and Michael explains the concept really well and tells us exactly how pythoneers must code!
 
-### Key take aways:
+### Key take aways
 
 1. Use pythons string formatting options for concats
 2. Don't try to loop over collections using index. It's not the pythonic way
@@ -24,7 +24,7 @@ This is talk given by [Michael Kennedy](https://www.youtube.com/channel/UCB2z8yr
 
 This talk given by [Raymond Hettinger](https://twitter.com/raymondh), who is python core developer and has made significant contributions to the python project! He covers a range of functions, generators, python way of writing python code and more with a great style of teaching. All over the talk was very informative and funny. Do keep in mind that most of what he explained was originally for the older versions of python, so go back to the python docs and see what changed. Definitely take a look!
 
-### Key take aways:
+### Key take aways
 
 1. python `for` is not the same as other languages `for`. It is actually `foreach`
 2. Use generators or iterables instead for looping through the entire collection
@@ -34,37 +34,37 @@ This talk given by [Raymond Hettinger](https://twitter.com/raymondh), who is pyt
 
 ### Timeline
 
-* [03:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=184s) -- Looping over a range of functions  
-* [04:47](https://www.youtube.com/watch?v=OSGv2VnC0go&t=287s) -- Looping over a collection  
-* [05:28](https://www.youtube.com/watch?v=OSGv2VnC0go&t=328s) -- Looping backwards  
-* [06:51](https://www.youtube.com/watch?v=OSGv2VnC0go&t=411s) -- Looping over a collection of indicies  
-* [07:36](https://www.youtube.com/watch?v=OSGv2VnC0go&t=456s) -- Looping over two collections  
-* [09:42](https://www.youtube.com/watch?v=OSGv2VnC0go&t=582s) -- Looping in sorted order  
-* [10:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=604s) -- Custom sort order  
-* [12:27](https://www.youtube.com/watch?v=OSGv2VnC0go&t=747s) -- Call a function until a sentinel value  
-* [15:52](https://www.youtube.com/watch?v=OSGv2VnC0go&t=952s) -- Distinguishing multiple exit points in loops  
-* [19:18](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1158s) -- Looping over dictionary keys  
-* [21:10](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1270s) -- Looping over dictionary keys and values  
-* [21:52](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1312s) -- Construct a dictionary from pairs  
-* [23:15](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1395s) -- Counting with dictionaries  
-* [25:30](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1530s) -- Grouping with dictionaries  
-* [27:57](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1677s) -- Is a dictionary pop() atomic?  
-* [29:12](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1752s) -- Linking dictionaries  
-* [31:10](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1870s) -- Clarify function calls with keyword arguments  
-* [32:17](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1937s) -- Clarify multiple return values with named tuples  
-* [33:13](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1993s) -- Unpacking sequences  
-* [34:01](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2041s) -- Updating multiple state variables  
-* [36:15](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2175s) -- Simultaneous state updates  
-* [38:24](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2304s) -- Concatenating strings  
-* [38:41](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2321s) -- Updating sequences  
-* [39:57](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2397s) -- Using decorators to factor-out administrative logic  
-* [40:24](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2424s) -- Caching decorator  
-* [41:19](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2479s) -- Factor-out temporary contexts for decimal  
-* [42:01](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2521s) -- How to open and close files  
-* [42:25](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2545s) -- How to use locks  
-* [43:10](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2590s) -- Factor-out temporary contexts  
-* [44:56](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2696s) -- Context manager: redirect_stdout()  
-* [46:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2764s) -- Concise expressive one-liners
+* [03:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=184s) Looping over a range of functions  
+* [04:47](https://www.youtube.com/watch?v=OSGv2VnC0go&t=287s) Looping over a collection  
+* [05:28](https://www.youtube.com/watch?v=OSGv2VnC0go&t=328s) Looping backwards  
+* [06:51](https://www.youtube.com/watch?v=OSGv2VnC0go&t=411s) Looping over a collection of indicies  
+* [07:36](https://www.youtube.com/watch?v=OSGv2VnC0go&t=456s) Looping over two collections  
+* [09:42](https://www.youtube.com/watch?v=OSGv2VnC0go&t=582s) Looping in sorted order  
+* [10:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=604s) Custom sort order  
+* [12:27](https://www.youtube.com/watch?v=OSGv2VnC0go&t=747s) Call a function until a sentinel value  
+* [15:52](https://www.youtube.com/watch?v=OSGv2VnC0go&t=952s) Distinguishing multiple exit points in loops  
+* [19:18](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1158s) Looping over dictionary keys  
+* [21:10](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1270s) Looping over dictionary keys and values  
+* [21:52](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1312s) Construct a dictionary from pairs  
+* [23:15](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1395s) Counting with dictionaries  
+* [25:30](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1530s) Grouping with dictionaries  
+* [27:57](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1677s) Is a dictionary pop() atomic?  
+* [29:12](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1752s) Linking dictionaries  
+* [31:10](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1870s) Clarify function calls with keyword arguments  
+* [32:17](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1937s) Clarify multiple return values with named tuples  
+* [33:13](https://www.youtube.com/watch?v=OSGv2VnC0go&t=1993s) Unpacking sequences  
+* [34:01](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2041s) Updating multiple state variables  
+* [36:15](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2175s) Simultaneous state updates  
+* [38:24](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2304s) Concatenating strings  
+* [38:41](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2321s) Updating sequences  
+* [39:57](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2397s) Using decorators to factor-out administrative logic  
+* [40:24](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2424s) Caching decorator  
+* [41:19](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2479s) Factor-out temporary contexts for decimal  
+* [42:01](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2521s) How to open and close files  
+* [42:25](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2545s) How to use locks  
+* [43:10](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2590s) Factor-out temporary contexts  
+* [44:56](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2696s) Context manager: redirect_stdout()  
+* [46:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2764s) Concise expressive one-liners
 
 ## [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0)
 
@@ -104,6 +104,37 @@ This is a very short video teaching us the key coding methodology to remember wh
 5. Errors should not be passed silently. Give message when it occurs
 6. Guido Van Rossum is the creator of Python
 
+## [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
+
+A video by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) giving us more pythonic ways of writing python code.
+
+### Key take aways
+
+1. Use `_` as numerical separators or delims for long numbers
+2. Use string formating to diplay numbers with commas `print(f"{number_var:,}')`
+3. Use `with open('file.txt', 'r') as f` context managers to handle files, thread, connection or any resources that needs to be managed
+4. Use `enumerate` to loop over lists.
+5. In unpacking you can use `*<variable>` to take all/subset of the unpacked values into a list variable
+6. Class can have dynamic attributes
+7. Use `setattr()` to create the attribute in the class using a string as param
+8. Use `getattr()` to get/find the attribute of the class via a string
+9. For terminals if you want to hide your input (for passwords) use `getpass()` `from getpass import getpass`
+10. In `python -m`, `-m` argument is for running a specific module
+11. Use `help()`, `dir()` to know more about functions, datatypes, modules etc.
+
+### Timeline
+
+* [00:34​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=34s) Ternary Conditionals
+* [02:13​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=133s) Underscore Placeholders
+* [04:25](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=265s) Context Managers
+* [06:50​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=410s) Enumerate
+* [08:52​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=532s) Zip
+* [13:02​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=782s) Unpacking
+* [19:08​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=1148s) Setattr/Getattr
+* [26:24​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=1584s) GetPass
+* [29:18​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=1758s) Python dash m
+* [33:17​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=1997s) Help/Dir
+
 ## [25 Python Tips + Tricks](https://www.youtube.com/watch?v=y4I3VI1N_ts)
 
 A very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA) which covers all frequent use cases in python. The video is to the point and explained briefly.
@@ -115,32 +146,69 @@ A very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZUyPT9Dk
 
 ### Timeline
 
-* [00:00](https://www.youtube.com/watch?v=y4I3VI1N_ts) - Introduction  
-* [00:43](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=43s) - Wrapping a Primitive to change within function  
-* [02:09](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=129s) - Compare identity with is  
-* [02:27](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=147s) - Add a method dynamically  
-* [02:50](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=170s) - Compare by Value  
-* [03:20](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=200s) -Class parenthesis optional but not function parenthesis  
-* [03:46](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=226s) - Get current date and time  
-* [04:17](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=257s) - Countdown  
-* [04:55](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=295s) - Elapsed time  
-* [05:24](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=324s) - Parentheses for operations with object members  
-* [06:54](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=414s) - Runtime error vs syntax error  
-* [07:52](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=472s) - Get a random number  
-* [08:13](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=493s) - Import with Alias  
-* [05:58](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=358s) - Generators and Yield  
-* [11:09](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=669s) - Infinite number  
-* [12:11](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=731s) - Infinite generator  
-* [12:47](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=767s) - list from generator  
-* [13:37](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=817s) - itertools for simple infinite generator  
-* [14:48](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=888s) - Iterate through custom type with iter  
-* [16:00](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=960s) - Falsey for custom types (not)  
-* [17:13](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1033s) - Combine two lists as a list of lists  
-* [17:39](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1059s) - Convert list of tuples to list of lists  
-* [18:11](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1091s) - Preserving all data when zipping with zip_longest  
-* [18:55](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1135s) - Default Arguments  
-* [19:30](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1170s) - Keyword Arguments  
-* [20:14](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1214s) - Get the Python version
+* [00:00](https://www.youtube.com/watch?v=y4I3VI1N_ts) Introduction  
+* [00:43](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=43s) Wrapping a Primitive to change within function  
+* [02:09](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=129s) Compare identity with is  
+* [02:27](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=147s) Add a method dynamically  
+* [02:50](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=170s) Compare by Value  
+* [03:20](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=200s)Class parenthesis optional but not function parenthesis  
+* [03:46](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=226s) Get current date and time  
+* [04:17](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=257s) Countdown  
+* [04:55](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=295s) Elapsed time  
+* [05:24](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=324s) Parentheses for operations with object members  
+* [06:54](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=414s) Runtime error vs syntax error  
+* [07:52](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=472s) Get a random number  
+* [08:13](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=493s) Import with Alias  
+* [05:58](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=358s) Generators and Yield  
+* [11:09](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=669s) Infinite number  
+* [12:11](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=731s) Infinite generator  
+* [12:47](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=767s) list from generator  
+* [13:37](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=817s) itertools for simple infinite generator  
+* [14:48](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=888s) Iterate through custom type with iter  
+* [16:00](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=960s) Falsey for custom types (not)  
+* [17:13](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1033s) Combine two lists as a list of lists  
+* [17:39](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1059s) Convert list of tuples to list of lists  
+* [18:11](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1091s) Preserving all data when zipping with zip_longest  
+* [18:55](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1135s) Default Arguments  
+* [19:30](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1170s) Keyword Arguments  
+* [20:14](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1214s) Get the Python version
+
+## [20 Python Tips and Tricks - Why We Love Python](https://www.youtube.com/watch?v=sbtbIqEG4nI)
+
+A great video from [Tech with Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg) which gives us more tips and tricks in python. It is useful and it is explained really well.
+
+### Key take aways
+
+1. Create enums using `range()` unpacking
+2. Use `f""` string for formating and concating.
+3. Find different functions or properties of a class or type using `dir(<class_type>)`
+4. Ignore unpacked variable using `_`
+5. To get count of elements in `x` list just use `max(set(x), key = x.count)`
+6. To repeat string multiple times use the `*` operator
+7. To print each element in a list do `print(*x)`
+8. Use `*` to get mutliple params in a function and `**` to pass a dictionary of arguments to the functions
+
+### Timeline
+
+* [0:09](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=9s) this (module)  
+* [0:52](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=52s) Enum (class)  
+* [1:34](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=94s) multiline assignment  
+* [2:20](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=140s) Fstrings  
+* [3:19](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=199s) list enumeration  
+* [4:14](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=254s) zip (function)  
+* [5:51](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=351s) help (function)  
+* [6:41](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=401s) DIR (function)  
+* [7:42](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=462s) list comprehension  
+* [9:23](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=563s) Anonymous variable  
+* [10:28](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=628s) concatenation list elements to string  
+* [11:16](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=676s) slicing  
+* [11:40](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=700s)  _hello_ (module)  
+* [11:49](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=709s) sys (module)  
+* [12:27](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=747s) most frequent item in list  
+* [13:48](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=828s) lambda (function)  
+* [15:07](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=907s) antigravity (module)  
+* [15:25](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=925s) string multiplication  
+* [16:06](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=966s) unpack (operator)
 
 ## [10 Python Tips & Tricks That You Do Not Know || Python Clever Tips || Learn Python Shortcuts](https://www.youtube.com/watch?v=WEP3DVTjKCc)
 
@@ -166,11 +234,80 @@ A good video from [Programming Hero](https://www.youtube.com/channel/UCStj-ORBZ7
 * [16:56](https://www.youtube.com/watch?v=WEP3DVTjKCc&t=1016s) reverse string with [::-1]
 * [17:49](https://www.youtube.com/watch?v=WEP3DVTjKCc&t=1069s) palindrome
 
+## [50 Python Tips and Tricks for Beginners](https://www.youtube.com/watch?v=F3T8tg2tVKM)
+
+Another very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA) with more extra tips and tricks in python.
+
+### Key take aways
+
+1. To seperate digits in a number, use `_` which acts like `,` in numbers
+2. To break a single line in python into multilines, use `\`
+3. To create a string with line breaks, use `"""`
+4. To check a substring in string you can use `in` or `find()`
+5. `id()` gives you the address of a variable
+6. `data = ['new']` creates a new list but `data[:] = ['new']` replaces the values inside the list without creating another one
+7. Use `locals()` and `globals()` to get the alive variables
+8. The is no `do... while()` in python, so you can use `while() if break`
+
+### Timeline
+
+* [00:00](https://www.youtube.com/watch?v=F3T8tg2tVKM) Introduction  
+* [00:41](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=41s) Assign Multiple Variables on One Line  
+* [00:59](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=59s) Print Colored Text  
+* [01:38](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=98s) Power operator  
+* [01:55](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=115s) Banker’s Rounding  
+* [02:36](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=156s) Underscores in numbers  
+* [02:56](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=176s) Open a web browser  
+* [03:10](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=190s) Concat without +  
+* [03:28](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=208s) Split string on multiple lines  
+* [04:06](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=246s) Multiline string  
+* [04:25](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=265s) Multiline comment  
+* [04:37](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=277s) Get last element of list  
+* [05:05](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=305s) Reverse list with slicing  
+* [05:32](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=332s) Reverse with method  
+* [05:50](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=350s) Substring with in  
+* [06:25](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=385s) single line if  
+* [06:44](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=404s) get index with find  
+* [07:23](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=443s) id to get identity  
+* [07:48](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=468s) Aliases  
+* [08:51](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=531s) Primitive types are immutable  
+* [09:21](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=561s) in-place methods  
+* [10:10](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=610s) Replace list vs replace list content  
+* [12:33](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=753s) Copy list with slicing  
+* [12:57](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=777s) Copy a list with method  
+* [13:03](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=783s) Using deepcopy  
+* [14:44](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=884s) concatenate lists  
+* [14:59](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=899s) not data vs is none  
+* [15:32](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=932s) Check empty list  
+* [16:29](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=989s) Check if exists  
+* [18:20](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1100s) Print end =" " to change ending  
+* [18:49](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1129s) Print multiple elements with commas  
+* [20:47](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1247s) String formatting for easy string making  
+* [21:56](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1316s) Return multiple values and assign to multiple variables  
+* [22:55](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1375s) Ternary conditional operator  
+* [24:11](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1451s) Else can be used with loop  
+* [26:58](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1618s) Use range to generate lists  
+* [28:09](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1689s) Unpack operator  
+* [29:10](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1750s) How to do nothing in Python with pass  
+* [30:03](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1803s) Remove list duplicates  
+* [30:51](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1851s) Using in instead of complex conditional - Check against list of values  
+* [32:04](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=1924s) complex conditional - Evaluate against any condition  
+* [33:21](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2001s) complex conditional - Evaluate against all conditions  
+* [33:28](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2008s) Split from string to multiple variables  
+* [34:43](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2083s) Join data  
+* [35:11](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2111s) Removing certain elements from a list  
+* [36:35](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2195s) Iterate backwards with reversed  
+* [37:19](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2239s) No do-while loop in python  
+* [38:46](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2326s) Assigning a function to a variable - just don’t use ()  
+* [39:53](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2393s) Wait with time.sleep  
+* [40:38](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2438s) Get index with for loop  
+* [41:23](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2483s) Flatten a list with nested list comprehension
+
 ## [11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
 
 A short video by [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA) channel on writing better python code
 
-### Key take aways:
+### Key take aways
 
 1. Iterate with enumerate instead or range(len(x))
 2. Use list comprehension instead of raw for loops
