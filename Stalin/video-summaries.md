@@ -104,6 +104,30 @@ This is a very short video teaching us the key coding methodology to remember wh
 5. Errors should not be passed silently. Give message when it occurs
 6. Guido Van Rossum is the creator of Python
 
+## [Practicality Beats Purity: The Zen of Python’s Escape Hatch?](https://www.youtube.com/watch?v=XU9_3AlCy84)
+
+A very interesting perspective by [Christopher Neugebauer](https://twitter.com/chrisjrn) showing the other side of The Zen of Python and how it doesn't hold up to being truly pythonic.
+
+### Key take aways
+
+1. Zen of python isn't prescriptive
+2. Decorators doen't modify function behaviour, but rather changes the decorator of the function
+3. `@property` is pythonic
+4. In python types are not enforced so it needs to be tested and porting code is hard
+5. Zen of python doesn't solve Type hints argument
+6. Practicality beats purity
+7. PEP 8 is a style guide which is better to follow
+
+### Timeline
+
+* [03:15](https://youtu.be/XU9_3AlCy84?t=195) Zen of Python
+* [05:15](https://youtu.be/XU9_3AlCy84?t=315) Decorators
+* [10:16](https://youtu.be/XU9_3AlCy84?t=616) Type Hints
+* [14:16](https://youtu.be/XU9_3AlCy84?t=856) Practicality beats purity
+* [16:43](https://youtu.be/XU9_3AlCy84?t=1003) Python doesn't tell you how to do things
+* [18:21](https://youtu.be/XU9_3AlCy84?t=1101) Switch statement and pattern matching
+* [21:46](https://youtu.be/XU9_3AlCy84?t=1306) Never is often better than right now
+
 ## [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
 
 A video by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) giving us more pythonic ways of writing python code.
