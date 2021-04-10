@@ -141,11 +141,67 @@ A talk by Sandi Metz on refactoring and fixing bad code.
 
 ### 8.2. Timeline
 
+## 12. [Anthony Shaw - Wily Python: Writing simpler and more maintainable Python - PyCon 2019](https://www.youtube.com/watch?v=dqdsNoApJ80)
+
+A talk by [Anthony Shaw](https://twitter.com/anthonypjshaw) on wily python and using complexity metric to measure complexity in code and refactor and maintain them.
+
+### 12.1. Key take aways
+
+1. Code must be easy to understand
+2. Fewer lines doesn't mean less complexity, readability counts
+3. Cyclomatic complexity is when you have to understand all the decisions which are made, while reading the code. This is caused by over nesting
+4. Halstead Metrics is a metric used to measure complexity in code
+5. Maintainability Index = 171 - 5.2ln(Halstead Volume) - 0.23(Cyclomatic Complexity) - 16.2ln(Line of Code). Higher the score, the better
+6. Radon is used for calculating these metrics
+7. Wily is a python library tool that looks at the way the maintainability and complexity of your code changes at every revision
+8. While refactoring your code, make sure spread complexity around your code and ensure the single responsibility principle
+9. The single responsibility principle is making sure that every function or a piece of code, should only have one single responsibility. No code should try to achieve everything as it becomes more difficult to maintain
+10. While refactoring, there should be high test covereage
+11. Complexity measure is long term
+12. Refactor your code often. While refactoring, don't try to refactor the entire code. Do it one by one
+
+### 12.2 Timeline
+
+* [05:12](https://www.youtube.com/watch?v=dqdsNoApJ80&t=312s) Cyclomatic Complexity  
+* [10:12](https://www.youtube.com/watch?v=dqdsNoApJ80&t=612s) Halstead Metrics  
+* [13:18](https://www.youtube.com/watch?v=dqdsNoApJ80&t=798s) Maintainability Index  
+* [14:56](https://www.youtube.com/watch?v=dqdsNoApJ80&t=896s) Radon  
+* [16:12](https://www.youtube.com/watch?v=dqdsNoApJ80&t=972s) Wily  
+* [16:54](https://www.youtube.com/watch?v=dqdsNoApJ80&t=1014s) Demo  
+* [20:08](https://www.youtube.com/watch?v=dqdsNoApJ80&t=1208s) Gravity of Complexity  
+* [21:36](https://www.youtube.com/watch?v=dqdsNoApJ80&t=1296s) Testing and refactoring  
+* [24:01](https://www.youtube.com/watch?v=dqdsNoApJ80&t=1441s) Summary  
+* [26:40](https://www.youtube.com/watch?v=dqdsNoApJ80&t=1600s) QnA
+
+## 16. [Dougal Matthews - MkDocs: Documenting projects with Markdown](https://www.youtube.com/watch?v=pzoOQg6BNG4)
+
+A talk by [Dougal Mathews](https://twitter.com/d0ugal) on documenting projects with MkDocs. It covers about markdown documents, how and why the project started and who uses MkDocs today.
+
+### 16.1. Key take aways
+
+1. You can create documents easily using `.md` and `.yaml` in MkDocs
+2. You don't need any major python coding and it is very easy to deploy and integrate
+
+### 16.2. Timeline
+
+* [00:00](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=0s) Introduction  
+* [01:44](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=104s) Project Goals  
+* [03:13](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=193s) Who uses MkDocs  
+* [04:36](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=276s) Why use MkDocs  
+* [05:33](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=333s) MkDocs Overview  
+* [07:05](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=425s) Getting started  
+* [13:12](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=792s) Interlinking  
+* [14:11](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=851s) Configuration  
+* [14:00](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=840s) Deploying  
+* [15:25](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=925s) Themes  
+* [16:22](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=982s) Future developments  
+* [18:02](https://www.youtube.com/watch?v=pzoOQg6BNG4&t=1082s) QnA
+
 ## 17. [How to do coding peer reviews with Github](https://www.youtube.com/watch?v=8fx-EaOUK2E)
 
 A video from [London App Developer](https://www.youtube.com/channel/UC3RtgbslbAvE-5FFBkSgpig) on coding peer reviews using GitHub to improve the quality of code.
 
-### Key take aways
+### 17.1. Key take aways
 
 1. Peer reviews is a technique used in programming to improve the quality of the code
 2. Helps to learn from other developers
