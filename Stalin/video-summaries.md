@@ -1,16 +1,16 @@
 # Video Summaries
 
-## [VA Meetup: Pythonic code techniques for developers and data scientists](https://www.youtube.com/watch?v=e-56wLh30xc)
+## 1. [VA Meetup: Pythonic code techniques for developers and data scientists](https://www.youtube.com/watch?v=e-56wLh30xc)
 
 This is talk given by [Michael Kennedy](https://www.youtube.com/channel/UCB2z8yryU2efaHA74MoDN8w) teaching us different, very useful, Pythonic code techniques. He explains well with great examples which is easy to understand. The video is simple and fun to watch and Michael explains the concept really well and tells us exactly how pythoneers must code!
 
-### Key take aways
+### 1.1. Key take aways
 
 1. Use pythons string formatting options for concats
 2. Don't try to loop over collections using index. It's not the pythonic way
 3. Python uses EAFF error handling strategy
 
-### Timeline
+### 1.2. Timeline
 
 * [05:04](https://youtu.be/e-56wLh30xc?t=304) strings
 * [11:36](https://youtu.be/e-56wLh30xc?t=696) Merging dictionaries
@@ -20,11 +20,11 @@ This is talk given by [Michael Kennedy](https://www.youtube.com/channel/UCB2z8yr
 * [41:55](https://youtu.be/e-56wLh30xc?t=2515) Generators
 * [58:54](https://youtu.be/e-56wLh30xc?t=3534) __slots__
 
-## [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go)
+## 2. [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go)
 
 This talk given by [Raymond Hettinger](https://twitter.com/raymondh), who is python core developer and has made significant contributions to the python project! He covers a range of functions, generators, python way of writing python code and more with a great style of teaching. All over the talk was very informative and funny. Do keep in mind that most of what he explained was originally for the older versions of python, so go back to the python docs and see what changed. Definitely take a look!
 
-### Key take aways
+### 2.1. Key take aways
 
 1. python `for` is not the same as other languages `for`. It is actually `foreach`
 2. Use generators or iterables instead for looping through the entire collection
@@ -32,7 +32,7 @@ This talk given by [Raymond Hettinger](https://twitter.com/raymondh), who is pyt
 4. Try to use tuples packing and unpacking instead of temporary variables for swapping and other functionalities
 5. Try to use list comprehensions and other python one liners
 
-### Timeline
+### 2.2. Timeline
 
 * [03:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=184s) Looping over a range of functions  
 * [04:47](https://www.youtube.com/watch?v=OSGv2VnC0go&t=287s) Looping over a collection  
@@ -66,11 +66,11 @@ This talk given by [Raymond Hettinger](https://twitter.com/raymondh), who is pyt
 * [44:56](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2696s) Context manager: redirect_stdout()  
 * [46:04](https://www.youtube.com/watch?v=OSGv2VnC0go&t=2764s) Concise expressive one-liners
 
-## [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0)
+## 3. [Stop Writing Classes](https://www.youtube.com/watch?v=o9pEzgHorH0)
 
 A talk by [Jack Diederich](https://twitter.com/jackdied) on problems of over usage of classes in out code. It has a different perspective and points out the mistakes made by us creating classes and sub-classes when in fact a function would just be fine. The talk gives examples of class overuse and how you can refactor the unnecessary classes, exception and modules away from your code, making it more readable to developers and even reduce total lines of code and hence increasing performance.
 
-### Key take aways
+### 3.1. Key take aways
 
 1. Classes are useful but not when it is not needed
 2. Simple is always better
@@ -80,7 +80,7 @@ A talk by [Jack Diederich](https://twitter.com/jackdied) on problems of over usa
 6. The proper way is not always the right way
 7. Don't try to create empty class, functions, etc. as placeholders for future functionality. Code what is required for now and add in later
 
-### Timeline
+### 3.2. Timeline
 
 * [1:03](https://youtu.be/o9pEzgHorH0?t=64) don't do hard things in the first place
 * [3:48](https://youtu.be/o9pEzgHorH0?t=228) standard lib: functools.partial
@@ -91,11 +91,11 @@ A talk by [Jack Diederich](https://twitter.com/jackdied) on problems of over usa
 * [12:48](https://youtu.be/o9pEzgHorH0?t=768) When to use class
 * [20:33](https://youtu.be/o9pEzgHorH0?t=1233) QnA
 
-## [PEP 20 Presentation - Zen of Python](https://www.youtube.com/watch?v=PHSAVai7yx4)
+## 4. [PEP 20 Presentation - Zen of Python](https://www.youtube.com/watch?v=PHSAVai7yx4)
 
 This is a very short video teaching us the key coding methodology to remember when coding in python.
 
-### Key take aways
+### 4.1. Key take aways
 
 1. Beautiful code is achieved through a combination of explicit, simple sparse and flat attributes to ensure readability
 2. Explicit is better than implicit
@@ -104,11 +104,11 @@ This is a very short video teaching us the key coding methodology to remember wh
 5. Errors should not be passed silently. Give message when it occurs
 6. Guido Van Rossum is the creator of Python
 
-## [Practicality Beats Purity: The Zen of Python’s Escape Hatch?](https://www.youtube.com/watch?v=XU9_3AlCy84)
+## 5. [Practicality Beats Purity: The Zen of Python’s Escape Hatch?](https://www.youtube.com/watch?v=XU9_3AlCy84)
 
 A very interesting perspective by [Christopher Neugebauer](https://twitter.com/chrisjrn) showing the other side of The Zen of Python and how it doesn't hold up to being truly pythonic.
 
-### Key take aways
+### 5.1. Key take aways
 
 1. Zen of python isn't prescriptive
 2. Decorators doen't modify function behaviour, but rather changes the decorator of the function
@@ -118,7 +118,7 @@ A very interesting perspective by [Christopher Neugebauer](https://twitter.com/c
 6. Practicality beats purity
 7. PEP 8 is a style guide which is better to follow
 
-### Timeline
+### 5.2. Timeline
 
 * [03:15](https://youtu.be/XU9_3AlCy84?t=195) Zen of Python
 * [05:15](https://youtu.be/XU9_3AlCy84?t=315) Decorators
@@ -128,11 +128,11 @@ A very interesting perspective by [Christopher Neugebauer](https://twitter.com/c
 * [18:21](https://youtu.be/XU9_3AlCy84?t=1101) Switch statement and pattern matching
 * [21:46](https://youtu.be/XU9_3AlCy84?t=1306) Never is often better than right now
 
-## [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
+## 6. [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
 
 A video by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) giving us more pythonic ways of writing python code.
 
-### Key take aways
+### 6.1. Key take aways
 
 1. Use `_` as numerical separators or delims for long numbers
 2. Use string formating to diplay numbers with commas `print(f"{number_var:,}')`
@@ -146,7 +146,7 @@ A video by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFU
 10. In `python -m`, `-m` argument is for running a specific module
 11. Use `help()`, `dir()` to know more about functions, datatypes, modules etc.
 
-### Timeline
+### 6.2. Timeline
 
 * [00:34​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=34s) Ternary Conditionals
 * [02:13​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=133s) Underscore Placeholders
@@ -159,16 +159,16 @@ A video by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFU
 * [29:18​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=1758s) Python dash m
 * [33:17​](https://www.youtube.com/watch?v=C-gEQdGVXbk&t=1997s) Help/Dir
 
-## [25 Python Tips + Tricks](https://www.youtube.com/watch?v=y4I3VI1N_ts)
+## 7. [25 Python Tips + Tricks](https://www.youtube.com/watch?v=y4I3VI1N_ts)
 
 A very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA) which covers all frequent use cases in python. The video is to the point and explained briefly.
 
-### Key take aways
+### 7.1. Key take aways
 
 1. Use itertools and generators
 2. You can preserve all data when merging two lists with unequal number of elements using zip_longest
 
-### Timeline
+### 7.2. Timeline
 
 * [00:00](https://www.youtube.com/watch?v=y4I3VI1N_ts) Introduction  
 * [00:43](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=43s) Wrapping a Primitive to change within function  
@@ -197,11 +197,11 @@ A very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZUyPT9Dk
 * [19:30](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1170s) Keyword Arguments  
 * [20:14](https://www.youtube.com/watch?v=y4I3VI1N_ts&t=1214s) Get the Python version
 
-## [20 Python Tips and Tricks - Why We Love Python](https://www.youtube.com/watch?v=sbtbIqEG4nI)
+## 8. [20 Python Tips and Tricks - Why We Love Python](https://www.youtube.com/watch?v=sbtbIqEG4nI)
 
 A great video from [Tech with Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg) which gives us more tips and tricks in python. It is useful and it is explained really well.
 
-### Key take aways
+### 8.1. Key take aways
 
 1. Create enums using `range()` unpacking
 2. Use `f""` string for formating and concating.
@@ -212,7 +212,7 @@ A great video from [Tech with Tim](https://www.youtube.com/channel/UC4JX40jDee_t
 7. To print each element in a list do `print(*x)`
 8. Use `*` to get mutliple params in a function and `**` to pass a dictionary of arguments to the functions
 
-### Timeline
+### 8.2 Timeline
 
 * [0:09](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=9s) this (module)  
 * [0:52](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=52s) Enum (class)  
@@ -234,11 +234,11 @@ A great video from [Tech with Tim](https://www.youtube.com/channel/UC4JX40jDee_t
 * [15:25](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=925s) string multiplication  
 * [16:06](https://www.youtube.com/watch?v=sbtbIqEG4nI&t=966s) unpack (operator)
 
-## [10 Python Tips & Tricks That You Do Not Know || Python Clever Tips || Learn Python Shortcuts](https://www.youtube.com/watch?v=WEP3DVTjKCc)
+## 9. [10 Python Tips & Tricks That You Do Not Know || Python Clever Tips || Learn Python Shortcuts](https://www.youtube.com/watch?v=WEP3DVTjKCc)
 
 A good video from [Programming Hero](https://www.youtube.com/channel/UCStj-ORBZ7TGK1FwtGAUgbQ) which gives us some everyday use tips and tricks with a great vibe.
 
-### Key take aways
+### 9.1. Key take aways
 
 1. For `if` you don't need to keep paranthesis like other languages
 2. For many conditions, rather than listing them all in `if`, create a list of those conditions and give `if all(conditions)`. Using this we can even update our conditions easily in the list
@@ -246,7 +246,7 @@ A good video from [Programming Hero](https://www.youtube.com/channel/UCStj-ORBZ7
 4. To pass multiple values as arguments in your function use `def func(*a)`
 5. You can reverse a string like so `string_var[::-1]`
 
-### Timeline
+### 9.2. Timeline
 
 * [00:28](https://youtu.be/WEP3DVTjKCc?t=28) inputs
 * [02:33](https://www.youtube.com/watch?v=WEP3DVTjKCc&t=153s) use a list of conditions for if
@@ -258,11 +258,11 @@ A good video from [Programming Hero](https://www.youtube.com/channel/UCStj-ORBZ7
 * [16:56](https://www.youtube.com/watch?v=WEP3DVTjKCc&t=1016s) reverse string with [::-1]
 * [17:49](https://www.youtube.com/watch?v=WEP3DVTjKCc&t=1069s) palindrome
 
-## [50 Python Tips and Tricks for Beginners](https://www.youtube.com/watch?v=F3T8tg2tVKM)
+## 10. [50 Python Tips and Tricks for Beginners](https://www.youtube.com/watch?v=F3T8tg2tVKM)
 
 Another very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA) with more extra tips and tricks in python.
 
-### Key take aways
+### 10.1. Key take aways
 
 1. To seperate digits in a number, use `_` which acts like `,` in numbers
 2. To break a single line in python into multilines, use `\`
@@ -273,7 +273,7 @@ Another very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZU
 7. Use `locals()` and `globals()` to get the alive variables
 8. The is no `do... while()` in python, so you can use `while() if break`
 
-### Timeline
+### 10.2. Timeline
 
 * [00:00](https://www.youtube.com/watch?v=F3T8tg2tVKM) Introduction  
 * [00:41](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=41s) Assign Multiple Variables on One Line  
@@ -327,11 +327,11 @@ Another very helpful video by [Caleb Curry](https://www.youtube.com/channel/UCZU
 * [40:38](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2438s) Get index with for loop  
 * [41:23](https://www.youtube.com/watch?v=F3T8tg2tVKM&t=2483s) Flatten a list with nested list comprehension
 
-## [11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
+## 11. [11 Tips And Tricks To Write Better Python Code](https://www.youtube.com/watch?v=8OKTAedgFYg)
 
 A short video by [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA) channel on writing better python code
 
-### Key take aways
+### 11.1. Key take aways
 
 1. Iterate with enumerate instead or range(len(x))
 2. Use list comprehension instead of raw for loops
@@ -345,7 +345,7 @@ A short video by [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedK
 10. Merge dictionaries with {\*\*d1, \*\*d2} (Python 3.5+)
 11. Simplify if-statements with if x in list
 
-### Timeline
+### 11.2. Timeline
 
 * [00:20](https://youtu.be/8OKTAedgFYg?t=20) Iterate with enumerate instead or range(len(x))
 * [01:03](https://youtu.be/8OKTAedgFYg?t=63) Use list comprehension instead of raw for loops
@@ -359,11 +359,11 @@ A short video by [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedK
 * [09:26](https://youtu.be/8OKTAedgFYg?t=566) Merge dictionaries with {\*\*d1, \*\*d2} (Python 3.5+)
 * [09:58](https://youtu.be/8OKTAedgFYg?t=598) Simplify if-statements with if x in list
 
-## [Trey Hunner Readability Counts PyCon 2017](https://www.youtube.com/watch?v=knMg6G9_XCg)
+## 12. [Trey Hunner Readability Counts PyCon 2017](https://www.youtube.com/watch?v=knMg6G9_XCg)
 
 A great talk by [Trey Hunner](https://twitter.com/treyhunner) during the PyCon 2017 conference. The talks explains really well different coding styles and techniques to make our program more readable.
 
-### Key take aways
+### 12.1. Key take aways
 
 1. Don't try to focus on code line length
 2. Use verbose mode for regular expressions to make it more readable
@@ -382,7 +382,7 @@ A great talk by [Trey Hunner](https://twitter.com/treyhunner) during the PyCon 2
 15. Try to use built in python operators
 16. If your chain of functions are passing and returning the same variable, consider using class
 
-### TImeline
+### 12.2. TImeline
 
 * [00:00](https://www.youtube.com/watch?v=knMg6G9_XCg) Introduction
 * [03:21](https://youtu.be/knMg6G9_XCg?t=201) Structuring Code
@@ -400,11 +400,11 @@ A great talk by [Trey Hunner](https://twitter.com/treyhunner) during the PyCon 2
 * [24:24](https://youtu.be/knMg6G9_XCg?t=1464) Shared Data
 * [25:02](https://youtu.be/knMg6G9_XCg?t=1502) Recap 2
 
-## [Mariano Anaya: Clean code in Python](https://www.youtube.com/watch?v=n_Y-_7R2KsY)
+## 13. [Mariano Anaya: Clean code in Python](https://www.youtube.com/watch?v=n_Y-_7R2KsY)
 
 A talk by [Mariano Anaya](https://twitter.com/rmarianoa)
 
-### Key take aways
+### 13.1. Key take aways
 
 1. We spend more time reading code than writing, so focus on readability
 2. Duplicated code is hard to maintain and error prone
@@ -415,7 +415,7 @@ A talk by [Mariano Anaya](https://twitter.com/rmarianoa)
 7. Be pythonic
 8. Use docstrings, PEP 8, unit tests, linters etc
 
-### Timeline
+### 13.2. Timeline
 
 * [00:59](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=59s) Introduction  
 * [04:19](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=259s) Don't Repeat yourself DRY  
@@ -427,11 +427,11 @@ A talk by [Mariano Anaya](https://twitter.com/rmarianoa)
 * [15:26](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=926s) Summary  
 * [19:12](https://www.youtube.com/watch?v=n_Y-_7R2KsY&t=1152s) QnA
 
-## [Readability Counts: Best Practices in Python Coding](https://www.youtube.com/watch?v=ubGeHQRjNog)
+## 14. [Readability Counts: Best Practices in Python Coding](https://www.youtube.com/watch?v=ubGeHQRjNog)
 
 In this webinar, bootcamp instructor Alex Baransky discussed popular Python coding conventions and how you can incorporate them into your work to increase your code's readability. It is a very detailed webinar with a lot of tips and tricks.
 
-### Key take aways
+### 14.1. Key take aways
 
 1. `import this` to take a look at the "Zen of Python"
 2. Try to avoid `l` (lowercase letter el), `O` (uppercase letter oh) or `I` (uppercase letter eye) as a single character and they are pretty hard to distinguish
@@ -465,7 +465,7 @@ In this webinar, bootcamp instructor Alex Baransky discussed popular Python codi
 30. Implementation should be easy to explain
 31. Don't go overboard trying to make code unreasonably robust. Solve immediate issues
 
-### Timeline
+### 14.2. Timeline
 
 * [01:30](https://www.youtube.com/watch?v=ubGeHQRjNog&t=90s) Introduction  
 * [04:25](https://www.youtube.com/watch?v=ubGeHQRjNog&t=265s) Why write Interpretable code?  
@@ -495,11 +495,11 @@ In this webinar, bootcamp instructor Alex Baransky discussed popular Python codi
 * [01:58:30](https://www.youtube.com/watch?v=ubGeHQRjNog&t=7110s) Now is better than never. Although, never is often better than right now  
 * [02:01:33](https://www.youtube.com/watch?v=ubGeHQRjNog&t=7293s) Conclusion
 
-## [Trey Hunner Hands On Intro to Python for New Programmers PyCon 2017](https://www.youtube.com/watch?v=6zu8lrYn6t8)
+## 15. [Trey Hunner Hands On Intro to Python for New Programmers PyCon 2017](https://www.youtube.com/watch?v=6zu8lrYn6t8)
 
 Once again from [Trey Hunner](https://twitter.com/treyhunner), a great tutorial for absolute python beginners given at PyCon 2017. Do keep in mind the video is really long
 
-### Key take aways
+### 15.1. Key take aways
 
 1. strings
 2. scripts
@@ -509,7 +509,7 @@ Once again from [Trey Hunner](https://twitter.com/treyhunner), a great tutorial 
 6. `for` `while`
 7. files
 
-### Timeline
+### 15.2. Timeline
 
 * [01:01](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=61s) Talk starts  
 * [10:03](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=603s) Python 3.6  
@@ -526,11 +526,11 @@ Once again from [Trey Hunner](https://twitter.com/treyhunner), a great tutorial 
 * [02:53:00](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=10380s) QnA  
 * [03:04:47](https://www.youtube.com/watch?v=6zu8lrYn6t8&t=11087s) Files
 
-## [Anand Chitipothu - Writing Beautiful Code](https://www.youtube.com/watch?v=QIRyr6qvGrY)
+## 16. [Anand Chitipothu - Writing Beautiful Code](https://www.youtube.com/watch?v=QIRyr6qvGrY)
 
 A talk by [Anand Chitipothu](https://twitter.com/anandology) on writing code that is pleasant to read and maintain during the EuroPython 2017 conference.
 
-### Key take aways
+### 16.1. Key take aways
 
 1. Choose meaningful names
 2. Avoid generic names, abbreviations, using datatype as a name
@@ -541,7 +541,7 @@ A talk by [Anand Chitipothu](https://twitter.com/anandology) on writing code tha
 7. In comments, don't say the obvious. Instead, explain why it was done
 8. The length of the variable is proportional to the scope of the variable
 
-### Timeline
+### 16.2. Timeline
 
 * [02:24](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=144s) Choose meaningful names  
 * [10:28](https://www.youtube.com/watch?v=QIRyr6qvGrY&t=628s) Comments  
